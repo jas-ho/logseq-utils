@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "logseq-utils"
+version = "0.0.1"
+description = ""
+authors = ["Jason Hoelscher-Obermaier <jason.hoelscherobermaier@gmail.com>"]
+packages = [
+    { include = "logseq_utils" }    
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+tqdm = "^4.56.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
